@@ -83,20 +83,19 @@
 
             .icon {
                 @extend %transition;
-                font-size: 45px;
-                font-weight: 400;
                 // margin-bottom: 23px;
                 color: var(--color-primary);
-                text-align: center;
-                border-radius: 100%;
+                padding: 5px;
                 display: flex;
                 justify-content: center;
                 
                 @media #{$md-layout} {
                     margin-bottom: 11px;
                 }
-                svg {
-                    stroke-width: 1 !important;
+                
+                .serviceIcons{
+                    height: 30px;
+                    width: 30px;
                 }
             }
             .content {
@@ -174,7 +173,10 @@
             .service {
                 &.service__style--2 {
                     .icon {
-                        color: var(--color-secondary);
+                        .serviceIcons{
+
+                            color: var(--color-secondary);
+                        }
                         // background-color: rgba(250,94,93,0.3);
                     }
                 }
@@ -184,7 +186,10 @@
             .service {
                 &.service__style--2 {
                     .icon {
-                        color: #12d8df;
+                        .serviceIcons{
+
+                            color: #12d8df;
+                        }
                         // background-color: rgba(249,141,94,0.3);
                     }
                 }
@@ -194,7 +199,10 @@
             .service {
                 &.service__style--2 {
                     .icon {
-                        color: #59C98D;
+                        .serviceIcons{
+
+                            color: #59C98D;
+                        }
                         // background-color: rgba(118,206,68,0.3);
                     }
                 }
@@ -204,7 +212,10 @@
             .service {
                 &.service__style--2 {
                     .icon {
-                        color: #6F41F6;
+                        .serviceIcons{
+
+                            color: #6F41F6;
+                        }
                         // background-color: rgba(106,154,232,0.3);
                     }
                 }
@@ -214,7 +225,10 @@
             .service {
                 &.service__style--2 {
                     .icon {
-                        color: #357FF6;
+                        .serviceIcons{
+
+                            color: #357FF6;
+                        }
                         // background-color: rgba(249,192,67,0.3);
                     }
                 }
@@ -224,7 +238,10 @@
             .service {
                 &.service__style--2 {
                     .icon {
-                        color: #f767b4;
+                        .serviceIcons{
+
+                            color: #f767b4;
+                        }
                         // background-color: rgba(247,103,180,0.3);    
                     }
                 }
@@ -234,7 +251,10 @@
             .service {
                 &.service__style--2 {
                     .icon {
-                        color: #fbe973;
+                        .serviceIcons{
+
+                            color: #fbe973;
+                        }
                         // background-color: rgba(68,206,176,0.3);
                     }
                 }

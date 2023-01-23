@@ -133,7 +133,7 @@ class HeaderThree extends Component {
               </Scrollspy>
             </nav>
           </div>
-          <div className="header-right">
+          <div className="header-right ">
             {/* <div className="social-share-inner d-none d-sm-block">
               <ul className="social-share social-style--2 d-flex color-theme justify-content-start liststyle">
                 {SocialShare.map((val, i) => (

@@ -21,7 +21,7 @@ const FooterTwo = () => {
           <div className="topFooter">
             <div className="infofooter">
               <img
-                src="/assets/images/logo/villy.png"
+                src="/assets/images/logo/villyName.png"
                 alt=""
                 className="logo"
               />
@@ -61,7 +61,7 @@ const FooterTwo = () => {
                   Premier Building, Vijay Nagar Square, Indore, India
                 </p>
                 <p>Phone: +917022249728</p>
-                <p>Email: revedorindia@gmail.com</p>
+                <p>Email: villyindia5@gmail.com</p>
               </div>
             </div>
           </div>

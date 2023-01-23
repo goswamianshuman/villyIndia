@@ -14,7 +14,7 @@ class ContactOne extends Component {
               <span className="subtitle ">For Our Honorabel Clients</span>
               <h2 className="title">Free Consulting</h2>
               <p className="color-5">
-                Call us 24/7 at (888)123-4567 or fill out the form.
+                Call us at +917022249728 or fill out the form.
               </p>
               <p>
                 It is a long established fact that a reader will be distracted
