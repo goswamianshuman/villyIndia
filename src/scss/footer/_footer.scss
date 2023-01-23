@@ -1,0 +1,131 @@
+.footerWrapper{
+    .topFooter{
+        width: 100%;
+        // background: red;
+        display: grid;
+        grid-template-columns: 0.4fr 0.6fr;
+        place-items: center;
+
+        .infofooter{
+            .logo{
+                max-height: 60px;
+                margin-bottom: 10px;
+            }
+            .infodetail{
+                color: white !important;
+                font-size: 13px;
+                max-width: 80%;
+                // padding-left: 10px;
+                text-align: justify;
+                @media #{$sm-layout},#{$md-layout}{
+                    max-width: 100%;
+                    font-size: 13px !important;
+                }
+            }
+
+            @media #{$sm-layout},#{$md-layout}{
+                max-width: 90%;
+                margin: 0 auto;
+            }
+        }
+
+        .practise-area{
+
+            .practise-head{
+                font-size: 25px;
+                color: var(--color-primary);
+                font-weight: 400;
+            }
+
+            &>ul{
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                margin: 0px;
+                padding: 0px;
+
+                &>li{
+                     
+                    &>a{
+                        color: white !important;
+                        font-size: 13px;
+                        text-transform: capitalize;
+                        transition:  0.3s ease-in-out;
+
+                        &:hover{
+                            color: var(--color-primary) !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contact-us-info{
+
+            // @media #{$sm-layout},#{$md-layout}{
+            //     max-width: 90%;
+            //     margin: 0 auto;
+            // }
+            .contact-head{
+                font-size: 25px;
+                color: var(--color-primary);
+                font-weight: 400;
+            }
+
+            & > p{
+                font-size: 13px;
+                color: white !important;
+                margin: 0px;
+
+                @media #{$sm-layout},#{$md-layout}{
+                    font-size: 13px !important;
+                }
+
+            }
+        }
+
+        @media #{$sm-layout},#{$md-layout}{
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+    }
+
+}
+
+.infoWrap{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+
+    @media #{$sm-layout},#{$md-layout}{
+        max-width: 90%;
+        margin: 0 auto;
+        place-items: center;
+    }
+}
+
+.bottomFooter{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+
+    .privacy{
+        width: 100%;
+        & > span{
+            font-size: 10px;
+            color: white !important;
+        }
+    }
+
+    // .social{
+    //     width: 100%;
+    //     background: red;
+    //     height: 100%;
+
+    // }
+}
