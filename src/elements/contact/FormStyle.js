@@ -15,10 +15,10 @@ function FormStyle({ props }) {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_p4x3hv8",
-        "template_jgfr42f",
+        "service_bvsegu3",
+        "template_60iu81y",
         e.target,
-        "user_jrfTH2e0Ely35ZCVFdT9S"
+        "user_bwSFJf6mNkd3G77UGBDxw"
       )
       .then(
         (result) => {
