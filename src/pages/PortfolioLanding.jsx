@@ -6,6 +6,7 @@ import Helmet from "../component/common/Helmet";
 import ContactOne from "../elements/contact/ContactOne";
 import ServiceList from "../elements/service/ServiceList";
 import Slider from "react-slick";
+import Pricing from "../elements/pricing/Pricing";
 
 const heroSliders = [
   {
@@ -234,125 +235,7 @@ function PortfolioLanding() {
             </div>
           </div>
           <div className="row">
-            {/* Start PRicing Table Area  */}
-            <div className="col-lg-4 col-md-6 col-12 mt--30">
-              <div className="rn-pricing">
-                <div className="pricing-table-inner">
-                  <div className="pricing-header">
-                    <h4 className="title">Free</h4>
-                    <div className="pricing">
-                      <span className="price">$45</span>
-                      <span className="subtitle">USD Per Month</span>
-                    </div>
-                  </div>
-                  <div className="pricing-body">
-                    <ul className="list-style--1">
-                      <li>
-                        <FiCheck /> 5 PPC Campaigns
-                      </li>
-                      <li>
-                        <FiCheck /> Digital Marketing
-                      </li>
-                      <li>
-                        <FiCheck /> Marketing Agency
-                      </li>
-                      <li>
-                        <FiCheck /> Seo Friendly
-                      </li>
-                      <li>
-                        <FiCheck /> UI/UX designs
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="pricing-footer">
-                    <a className="rn-btn" href="#pricing">
-                      Purchase Now
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* End PRicing Table Area  */}
-
-            {/* Start PRicing Table Area  */}
-            <div className="col-lg-4 col-md-6 col-12 mt--30">
-              <div className="rn-pricing active">
-                <div className="pricing-table-inner">
-                  <div className="pricing-header">
-                    <h4 className="title">Business</h4>
-                    <div className="pricing">
-                      <span className="price">$45</span>
-                      <span className="subtitle">USD Per Month</span>
-                    </div>
-                  </div>
-                  <div className="pricing-body">
-                    <ul className="list-style--1">
-                      <li>
-                        <FiCheck /> 5 PPC Campaigns
-                      </li>
-                      <li>
-                        <FiCheck /> Digital Marketing
-                      </li>
-                      <li>
-                        <FiCheck /> Marketing Agency
-                      </li>
-                      <li>
-                        <FiCheck /> Seo Friendly
-                      </li>
-                      <li>
-                        <FiCheck /> UI/UX designs
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="pricing-footer">
-                    <a className="rn-btn" href="#pricing">
-                      Purchase Now
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* End PRicing Table Area  */}
-
-            {/* Start PRicing Table Area  */}
-            <div className="col-lg-4 col-md-6 col-12 mt--30">
-              <div className="rn-pricing">
-                <div className="pricing-table-inner">
-                  <div className="pricing-header">
-                    <h4 className="title">Advanced</h4>
-                    <div className="pricing">
-                      <span className="price">$99</span>
-                      <span className="subtitle">USD Per Month</span>
-                    </div>
-                  </div>
-                  <div className="pricing-body">
-                    <ul className="list-style--1">
-                      <li>
-                        <FiCheck /> 5 PPC Campaigns
-                      </li>
-                      <li>
-                        <FiCheck /> Digital Marketing
-                      </li>
-                      <li>
-                        <FiCheck /> Marketing Agency
-                      </li>
-                      <li>
-                        <FiCheck /> Seo Friendly
-                      </li>
-                      <li>
-                        <FiCheck /> UI/UX designs
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="pricing-footer">
-                    <a className="rn-btn" href="#pricing">
-                      Purchase Now
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* End PRicing Table Area  */}
+            <Pricing />
           </div>
         </div>
       </div>
