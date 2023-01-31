@@ -142,7 +142,7 @@ function PortfolioLanding() {
           <div className="about-wrapper">
             <div className="container">
               <div className="row row--35">
-                <div className="col-lg-5">
+                {/* <div className="col-lg-5">
                   <div className="thumbnail">
                     <img
                       className="w-100"
@@ -150,7 +150,7 @@ function PortfolioLanding() {
                       alt="About Images"
                     />
                   </div>
-                </div>
+                </div> */}
                 <div className="col-lg-7">
                   <div className="about-inner inner">
                     <div className="section-title">
@@ -161,14 +161,14 @@ function PortfolioLanding() {
 
                     <div className="about_details">
                       <div className="details_wrap">
-                        <h4>transport pricing</h4>
+                        <h4>transperent pricing</h4>
                         <p>
                           see fixed price before you pay a rupee. no hidden
                           charges
                         </p>
                       </div>
                       <div className="details_wrap">
-                        <h4>exports only</h4>
+                        <h4>experts only</h4>
                         <p>
                           Our lawyers are well versed and experts in their jobs.
                         </p>
