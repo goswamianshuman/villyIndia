@@ -137,12 +137,12 @@ function PortfolioLanding() {
       {/* End Slider Area   */}
 
       {/* Start About Area */}
-      <div id="about" className="fix">
+      {/* <div id="about" className="fix">
         <div className="about-area ptb--120 bg_color--5">
           <div className="about-wrapper">
             <div className="container">
               <div className="row row--35">
-                {/* <div className="col-lg-5">
+                <div className="col-lg-5">
                   <div className="thumbnail">
                     <img
                       className="w-100"
@@ -150,13 +150,12 @@ function PortfolioLanding() {
                       alt="About Images"
                     />
                   </div>
-                </div> */}
+                </div>
                 <div className="col-lg-7">
                   <div className="about-inner inner">
                     <div className="section-title">
                       <span className="subtitle">{description}</span>
                       <h2 className="title">{title}</h2>
-                      {/* <p className="description mt_dec--20">{description}</p> */}
                     </div>
 
                     <div className="about_details">
@@ -181,6 +180,44 @@ function PortfolioLanding() {
                         </p>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+
+      <div id="about" className="fix">
+        <div className="about-area ptb--120 bg_color--5">
+          <div className="about-wrapper">
+            <div className="container">
+              <div className="about-container">
+                <div className="about-heading">
+                  <span className="subtitle color-5">{description}</span>
+                  <h2 className="title">{title}</h2>
+                </div>
+                <div className="about-body">
+                  <div className="aboutCard">
+                    <h4>transperent pricing</h4>
+                    <p>
+                      see fixed price before you pay a rupee. no hidden charges
+                    </p>
+                  </div>
+
+                  <div className="aboutCard">
+                    <h4>experts only</h4>
+                    <p>
+                      Our lawyers are well versed and experts in their jobs.
+                    </p>
+                  </div>
+
+                  <div className="aboutCard">
+                    <h4>24 X 7 at your service</h4>
+                    <p>
+                      Whether it is 5 in morning or in noon, our doors are
+                      always open for you
+                    </p>
                   </div>
                 </div>
               </div>
@@ -219,7 +256,7 @@ function PortfolioLanding() {
       {/* Start Pricing Tbale Area  */}
       <div
         id="price"
-        className="rn-pricing-table-area pt--120 pb--120 bg_color--5"
+        className="rn-pricing-table-area pt--120 pb--120 backgroundGray"
       >
         <div className="container">
           <div className="row">

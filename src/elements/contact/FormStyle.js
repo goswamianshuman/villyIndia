@@ -65,7 +65,7 @@ function FormStyle({ props }) {
 
         <div className="rn-form-group">
           <button
-            className="btn-default btn-normal"
+            className="btn-default btn-normal size-sm"
             type="submit"
             value="submit"
             name="submit"
